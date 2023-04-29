@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer type="application/javascript" src="F4.js"></script>
+    <link rel="stylesheet" href="F4bank.css">
+    <script src="https://kit.fontawesome.com/0d61de7fe1.js"crossorigin="anonymous"></script>
+    
+<body>
+    <header> 
+        <div class="center">
+            <div class="logo">
+                <figure>
+                    <img src=f4bank.png.png alt="Logo F4bank">
+                </figure>
+                
+            </div><!--logo-->
+            <div class="menu">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    Abra sua conta
+                </a>
+                <a href="#">
+                    Sobre nós 
+                </a>
+                <a href="#">
+                    Perguntas 
+                </a>
+                <a class  onclick ="cadastro(event)"  href="#">
+                    Login
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </a>
+            </div><!--menu-->
+
+        </div><!--center-->
+        
+    </header>
+
+    <main>
+        <section class="main">
+            <section class="logo2">
+                <img src="f4bank.png.png" alt="Logo F4bank">
+            </section>
+
+            <section class="conta">
+                <h3>CONTA SEM TAXAS + CRÉDITO PARA NEGATIVADO<h3>
+                <button onclick="cadastro(event)" >ABRA SUA CONTA</button>
+            </section>
+
+            <section class="produtos">
+                <section class="prod1">
+                    <i class="fa-solid fa-building"></i>
+                    <h2>F4 EMPRESAS</h2>
+                    <a> Toda a administração da sua empresa na palma da mão
+                       
+                    </a>
+                </section>
+
+                <section class="prod1">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    <h2>F4 SEGUROS</h2>
+                    <a>Não espere o problema acontecer para se precaver
+                         </a> 
+                </section>
+
+                <section class="prod1">
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h2>F4 INVEST</h2>
+                    <a> Seu dinheiro parado pode render muito
+                      
+                    </a>
+                </section>
+
+                <section class="prod1">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h2>F4 CASHBACK</h2>
+                    <a>Receba ate 10% de volta em suas compras
+                        
+                    </a>
+                </section>
+
+            </section><!--produtos-->
+
+        </section><!--main-->
+        
+        <div class="navcad">
+            <nav class="card">
+            <section class="esquerda">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <h3 class="titulo__login">Login</h3>
+                <span class="subtitulo">Acesse sua conta</span>
+                <form>
+                    <section class="caixa__input">
+                        <label>Email</label>
+                        <input type="text" placeholder="Email" />
+                    </section>
+                    <section class="caixa__input">
+                        <label>Senha</label>
+                        <input type="password" placeholder="Senha" />
+                    </section>
+                </form>
+                <section class="controle__salvamento">
+                    <span class="esqueceu__senha">
+                        Esqueceu sua senha?
+                    </span>
+                </section>
+                <section class="controle__acesso">
+                    <button type="submit">Login</button>
+                    <button class="botao__registrar">
+                        <span class="botao__registrar--texto">Registrar</span>
+                    </button>
+                </section>
+                <section class="separador">
+                    <span></span>
+                    <span>ou faça login com sua rede social</span>
+                    <span></span>
+                </section>
+                <section class="controle__login_social">
+                    <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                        Login com Google
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        Login com Facebook
+                    </a>
+                </section>
+            </section>
+            <section class="direita">
+                <div class="background__imagem">
+                    <div class="detalhe__vidro">
+                        <div class="detalhe__vidro--interno">
+                            <span>CONTA SEM TAXAS + CRÉDITO PARA NEGATIVADOS</span>
+                        </div>
+                    </div>
+                    <img src="f4bank.png.png" alt="logo f4bank">
+                </div>
+            </section>
+            <section class="fechar">
+                <button onclick="cadastro(event)"> FECHAR</button>
+            </section>
+            </nav>
+        </div><!--div navcad-->    
+    
+    </main>
+
+
+    
+
+
+    
+
+    <footer>
+        <div class="rodape">
+            <div class="menus"> 
+                <div class="sac">
+                    <a>
+                        <i class="fa-solid fa-phone"></i>
+                        SAC
+                    </a>
+                </div>
+
+            
+                <div class="ouvidoria">
+                    <a>
+                    <i class="fa-solid fa-headset"></i>
+                    Ouvidoria </a>
+                </div>
+
+                <div class="trabalhe">
+                    <a>
+                    <i class="fa-solid fa-user-group"></i>
+                     Trabalhe Conosco
+                    </a>
+                </div>          
+                <div class="midias">
+                    <a> 
+                    <i class="fa-brands fa-instagram"></i>
+                     Redes Sociais
+                    </a>
+                        
+                        
+
+            </div><!--menus-->    
+        </div><!--rodape-->       
+
+     </footer>
+    
+</body>
+</html>
